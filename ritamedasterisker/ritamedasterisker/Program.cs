@@ -20,7 +20,7 @@ namespace ritamedasterisker
                     Console.Write(" ");
                 }
 
-                //switch-sats som ändrar färgen på asterisken 
+                //switch-sats som ändrar färgen på asterisken efter varje rad 
                 switch (row % 3)
                 {
                     case 0:
@@ -46,7 +46,9 @@ namespace ritamedasterisker
                 
                 //Byter rad efter att asteriskerna skrivits ut
                 Console.WriteLine();
-                
+                //Återställer färgen när allt är klart
+                Console.ResetColor();
+
             }
 
            
