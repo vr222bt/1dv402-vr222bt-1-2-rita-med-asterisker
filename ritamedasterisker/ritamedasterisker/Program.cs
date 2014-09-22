@@ -10,6 +10,7 @@ namespace ritamedasterisker
     {
         static void Main(string[] args)
         {
+            
             //for loop som körs 25 gånger
             for (int row = 0; row < 25; row++)
             {
@@ -33,8 +34,7 @@ namespace ritamedasterisker
                     
                     case 2:
                         Console.ForegroundColor = ConsoleColor.Green;
-                        break;
-                    
+                        break;                    
                 }
 
                 //for loop som skirver ut "* " 39 gånger
@@ -42,20 +42,13 @@ namespace ritamedasterisker
                 {
                     Console.Write("* ");
                 }
-
                 
                 //Byter rad efter att asteriskerna skrivits ut
                 Console.WriteLine();
                 //Återställer färgen när allt är klart
                 Console.ResetColor();
 
-            }
-
-           
-
-
-
-
+            }          
         }
     }
 }
