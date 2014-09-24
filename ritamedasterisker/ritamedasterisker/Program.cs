@@ -45,10 +45,10 @@ namespace ritamedasterisker
                 
                 //Byter rad efter att asteriskerna skrivits ut
                 Console.WriteLine();
-                //Återställer färgen när allt är klart
-                Console.ResetColor();
+            }
 
-            }          
+            //Återställer färgen när allt är klart
+            Console.ResetColor();
         }
     }
 }
